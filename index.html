@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria Roce</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .attribution{ font-size: 18px; text-align: center;
+        }
+        .attribution a {  color: black;
+        }
+    </style>
+   
+</head>
+<body>
+   <main class="main-conteiner">
+    <header class="header">
+        <img src="./imagenes/icon-menu.svg" alt="icon-menu">
+        <img src="./imagenes/cuadernos.jpeg" alt="logo">
+        <nav class=" nuvbar">
+            <ul class="navbar_items">
+                <li><a class="navbar-link" href="#">Conocenos</a>  </li>
+                <li><a class="navbar-link" href="#">Libreria</a> </li>
+                <li><a class="navbar-link" href="#"> Registrate</a></li>
+                <li><a class="navbar-link" href="#"> Inicio de Sesión</a> </li>
+                <li><a class="navbar-link" href="#"> Contacto</a></li>
+
+            </ul>
+        </nav>
+        <!-- //modal// -->
+        <div class="modal-navbar__oscuro">
+            <nav class=" nuvbar">
+                <img class="modal-navbar__close" src="./imagenes/icon-close.svg" alt="">
+                <ul class="navbar_items">
+                    <li><a class="modal-navbar-link" href="#">Conocenos</a>  </li>
+                    <li><a class="modal-navbar-link" href="#"> Libreria</a></li>
+                    <li><a class="modal-navbar-link" href="#"> Registrate</a></li>
+                    <li><a class="modal-navbar-link" href="#">Inicio de Sesión</a>  </li>
+                    <li><a class="modal-navbar-link" href="#"> Contacto</a></li>
+    
+                </ul>
+            </nav>
+        </div>
+        <div class="header__cart-avatar">
+            <div class="header_cart">
+                <div class="header_cart-noticifacion">3</div>
+                <img src="./imagenes/icon-cart.svg" alt="carrito">
+            </div>
+            
+            <img src="./imagenes/avatar.jpeg" alt="foto">
+        </div>
+    </header>
+    <hero class="portada">
+
+    </hero>
+    <section class="contenido">
+        <article class="galeria">
+            <div class="galeria_imagenes-contenedor">
+                <img class= "icon-previous"src="./imagenes/icon-previous.svg" alt="icono__previo">
+                <img src="./imagenes/icon-next.svg" alt="icono__next" class="icon-next">
+            </div>
+            <div class="galeria__imagenes">
+                <img id="1" class="galeria-miniatura" src="./imagenes/amarillo.jpeg" alt="cuadernoAmarillo">
+                <img id="2" class="galeria-miniatura" src="./imagenes/azul.jpeg" alt="cuadernoAzul">
+                <img id="3" class="galeria-miniatura" src="./imagenes/rosa.jpeg" alt="cuadernoRosa">
+                <img id="4" class="galeria-miniatura" src="./imagenes/violeta.jpeg" alt="cuadernoVioleta">
+                <img id="5" class="galeria-miniatura" src="./imagenes/rojo.jpeg" alt="cuadernoRojo">
+                <img id="6" class="galeria-miniatura" src="./imagenes/verdeclaro.jpeg" alt="cuadernoVerde">
+            </div>
+        </article>
+        <article class="detalles">
+            <h2 class="detalles__cuadernosExito">Cuadernos Exito</h2>
+            <h2 class="detalles_cuaderno">Cuaderno Exito N°3 </h2>
+            <p class="descripcion">Cuaderno tapa dura, numero 3. Comtiene 50 hojas de alta calidad. Varios colores en stock.  </p>
+       <div class="precio">$2500</div>
+       <div class="contador">
+        <div class="input">
+            <img src="./imagenes/icon-minus.svg" alt="menos">
+            <input class="input_numer" type="numero" value="0">
+            <img src="./imagenes/icon-plus.svg" alt="mas">
+
+        </div>
+<button class="button">Añadir al carrito</button>
+       </div>
+
+        </article>
+    </section>
+    <!-- galeria modal 2 -->
+   <div class="fotosGaleria__oscuro">
+    <article class="modal_galeria">
+        <img src="./imagenes/icon-close.svg" alt="X" class="modal_icon-close">
+        <div class="modal_galeria_imagenes-contenedor">
+            <img class= "modal_icon-previous"src="./imagenes/icon-previous.svg" alt="icono__previo">
+            <img src="./imagenes/icon-next.svg" alt="icono__next" class="modal_icon-next">
+        </div>
+        <div class="modal_galeria__imagenes">
+            <img id="m1" class="modal_galeria-miniatura" src="./imagenes/amarillo.jpeg" alt="cuadernoAmarillo">
+            <img id="m2" class="modal_galeria-miniatura" src="./imagenes/azul.jpeg" alt="cuadernoAzul">
+            <img id="m3" class="modal_galeria-miniatura" src="./imagenes/rosa.jpeg" alt="cuadernoRosa">
+            <img id="m4" class="modal_galeria-miniatura" src="./imagenes/violeta.jpeg" alt="cuadernoVioleta">
+            <img id="m5" class="modal_galeria-miniatura" src="./imagenes/rojo.jpeg" alt="cuadernoRojo">
+            <img id="m6" class="modal_galeria-miniatura" src="./imagenes/verdeclaro.jpeg" alt="cuadernoVerde">
+        </div>
+    </article></div>
+   </main>
+   <footer>
+    <div class="attribution"> Creado por CsySides</div>
+   
+   </footer>
+</body>
+</html>
